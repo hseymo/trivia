@@ -1,0 +1,30 @@
+header {
+    height: 20vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw
+  }
+  
+  .headerH1 {
+    text-align: center;
+    color: turquoise;
+    margin-top: 20px;
+  }
+  
+  nav ul {
+    margin: 30px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+  
+  nav ul li {
+    list-style-type: none;
+  }
+
+  .LinkActive, .Link {
+    text-decoration: none;
+    color: turquoise;
+  }

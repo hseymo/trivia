@@ -1,0 +1,9 @@
+.Home {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.EnterButton {
+    width: 40vw;
+}

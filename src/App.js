@@ -1,31 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Routes, Route} from 'react-router-dom'
+import Header from './components/Header/index.js';
+import Home from './components/Home/index.js';
+import About from './components/About/index.js';
+import Gameplay from './components/Gameplay/index.js';
+import Scoreboard from './components/Scoreboard/index.js';
+import Locations from './components/Locations/index.js';
+import Footer from './components/Footer/index.js';
+
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <h1>Let's Play Trivia!</h1>
-        <nav>
-          <ul>
-            <li><a>About</a></li>
-            <li><a>Play</a></li>
-            <li><a>Scoreboard</a></li>
-            <li><a>Trivia Near Me</a></li>
-          </ul>
-        </nav>
-      </header>
-      <body>
-        <section class='gameplay'>
-          <p>Game play</p>
-        </section>
-        <aside class='clockscore'>
-          <p>Clock and scoreboard</p>
-        </aside>
-      </body>
-      <footer>
-        <p>Thanks for visiting!</p>
-      </footer>
+    <div className="appContainer">
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/gameplay" element={<Gameplay/>} />
+          <Route path="/scoreboard" element={<Scoreboard/>} />
+          <Route path="/locate" element={<Locations/>} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

@@ -1,0 +1,11 @@
+.gameplay {
+    padding: 20px;
+    width: 70vw;
+    background-color: orange;
+  }
+  
+  .clockscore {
+    padding: 20px;
+    width: 25vw;
+    background-color: purple;
+  }

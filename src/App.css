@@ -2,56 +2,12 @@
 margin: 0px;
 padding: 0px;
 box-sizing: border-box;
+font-family: sans-serif;
 }
 
-header {
-  height: 20vh;
-  background-color: blue;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 100vw
-}
-
-h1 {
-  text-align: center;
-  margin-top: 20px;
-}
-
-nav ul {
-  margin: 30px 50px;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-}
-
-nav ul li {
-  list-style-type: none;
-}
-
-body {
+.Home, .About, .Gameplay {
   height: 70vh;
   background-color: red;
   display: flex;
   justify-content: space-around;
-}
-
-.gameplay {
-  padding: 20px;
-  width: 70vw;
-  background-color: orange;
-}
-
-.clockscore {
-  padding: 20px;
-  width: 25vw;
-  background-color: purple;
-}
-
-footer {
-  height: 10vh;
-  background-color: green;
-  text-align: center;
-  padding-top: 20px;
-  width: 100vw
 }
