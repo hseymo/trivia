@@ -5,6 +5,7 @@ function Scoreboard() {
     return (
         <body className='Scoreboard'>
             <h1 className='pageHeader'>Scoreboard</h1>
+            <div className='pageBody'></div>
         </body>
     )
 }

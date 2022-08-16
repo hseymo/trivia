@@ -6,14 +6,22 @@ font-family: sans-serif;
 }
 
 .Home, .About, .Gameplay, .Scoreboard, .Locations {
-  height: 70vh;
+  min-height: 70vh;
   background-color: red;
-  display: flex;
-  justify-content: space-around;
 }
 
 .pageHeader {
   text-align: center;
-  margin-top: 10px;
+  min-height: 10vh;
+  padding: 10px 0px;
   color: navy;
+  border-bottom: 5px solid navy
+}
+
+.pageBody {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }

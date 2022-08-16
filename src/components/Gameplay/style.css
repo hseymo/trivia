@@ -1,21 +1,18 @@
-.Gameplay {
-  flex-wrap: wrap;
-}
-
-.Gameplay .pageHeader {
-width: 100vw;
+.Gameplay .pageBody {
+  flex-direction: row;
 }
 
 .gamesection {
     padding: 20px;
-    width: 70vw;
+    width: 65vw;
     background-color: orange;
-    height: 40vh;
+    min-height: 40vh;
   }
   
   .clockscoresection {
     padding: 20px;
     width: 25vw;
     background-color: purple;
-    height: 40vh;
+    min-height: 40vh;
+
   }
