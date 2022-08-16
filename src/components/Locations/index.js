@@ -4,7 +4,7 @@ import React from 'react';
 function Locations() {
     return (
         <body className='Locations'>
-            <h1>Locate</h1>
+            <h1 className='pageHeader'>Locate</h1>
         </body>
     )
 }

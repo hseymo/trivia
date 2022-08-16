@@ -5,9 +5,15 @@ box-sizing: border-box;
 font-family: sans-serif;
 }
 
-.Home, .About, .Gameplay {
+.Home, .About, .Gameplay, .Scoreboard, .Locations {
   height: 70vh;
   background-color: red;
   display: flex;
   justify-content: space-around;
+}
+
+.pageHeader {
+  text-align: center;
+  margin-top: 10px;
+  color: navy;
 }

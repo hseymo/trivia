@@ -4,10 +4,11 @@ import React from 'react';
 function Gameplay() {
     return (
         <body className='Gameplay'>
-            <section class='gameplay'>
-                <p>Game play</p>
+            <h1 className='pageHeader'>Gameplay</h1>
+            <section class='gamesection'>
+                <p>Game section</p>
             </section>
-            <aside class='clockscore'>
+            <aside class='clockscoresection'>
                 <p>Clock and scoreboard</p>
             </aside>
       </body>

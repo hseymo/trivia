@@ -1,11 +1,21 @@
-.gameplay {
+.Gameplay {
+  flex-wrap: wrap;
+}
+
+.Gameplay .pageHeader {
+width: 100vw;
+}
+
+.gamesection {
     padding: 20px;
     width: 70vw;
     background-color: orange;
+    height: 40vh;
   }
   
-  .clockscore {
+  .clockscoresection {
     padding: 20px;
     width: 25vw;
     background-color: purple;
+    height: 40vh;
   }
